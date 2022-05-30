@@ -1,0 +1,12 @@
+@media(min-width: 768px) {
+ .img-hot {
+  width:50%;
+ }
+
+}
+
+.image{
+ width:35px;
+ height:45px;
+}
+
