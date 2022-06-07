@@ -1,12 +1,138 @@
 @media(min-width: 768px) {
- .img-hot {
-  width:50%;
+
  }
 
+font-family{
+ font-family:'Hind Siliguri', sans-serif;
+}
+
+img{
+ max-width:100%;
 }
 
 .image{
  width:35px;
- height:45px;
+ height:auto;
 }
 
+.nav-1:hover{
+ cursor: pointer;
+}
+
+.Section5{
+background-color:hsl(219, 30%, 18%);
+z-index:150px;
+}
+
+.quotes{
+ width:35px
+}
+
+.Secondary-text{
+font-size:12px;
+}
+
+.Container-absolute{
+ position:relative;
+ background-color: hsl(216, 53%, 9%);
+ padding-top:90px;
+}
+
+.location{
+height:13px;
+}
+
+.footer-text{
+ position:relative;
+font-size:12px;
+}
+
+.call-icon{
+ height:13px
+}
+
+.footer-calltext{
+ font-size:12px;
+}
+
+.email-icon{
+ height:13px
+}
+
+.footer-emailtext{
+ font-size:12px;
+}
+
+.flex-footer{
+width:100%;
+
+}
+
+.flex-footer:hover{
+ cursor:pointer;
+}
+
+.footer-choice{
+font-size:12px;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:20px;
+}
+
+.footer-choice:hover{
+ cursor:pointer;
+}
+
+.footer-choice-2{
+ font-size:12px;
+ /* padding-left:40px; */
+ padding-left:20px;
+ }
+
+.get-font{
+ font-size:xx-small;
+ height:40px;
+ width:500px;
+}
+
+
+.input-o{
+ height:30px;
+ font-size:10px
+}
+.Card-design{
+ background-color: hsl(217, 28%, 15%);
+ padding:7px; 
+ z-index:100;
+}
+
+.section-absolute{
+ position:relative;
+
+}
+
+.hover-design:hover{
+text-decoration:underline;
+}
+
+.first-column{
+background-color: hsl(216, 53%, 9%);
+}
+.first-column-2{
+ background-color: hsl(216, 53%, 9%);
+ margin-bottom:30px;
+ }
+
+ .FTI:hover{
+  cursor:pointer;
+ }
+
+ .nowrap{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+ }
+
+ .IC-arrow:hover{
+  cursor: pointer;
+ }
