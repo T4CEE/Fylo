@@ -2,12 +2,21 @@
 
  }
 
-font-family{
- font-family:'Hind Siliguri', sans-serif;
+p{
+ font-family:'Hind Siliguri';
 }
 
 img{
  max-width:100%;
+ 
+}
+
+
+.background_image{
+  background: url('./images/bg-curvy-mobile.svg') bottom/cover hsl(218, 28%, 13%) ;
+  background-size:cover;
+  background-position:bottom;
+  background-blend-mode:soft-light;
 }
 
 .image{
@@ -15,8 +24,15 @@ img{
  height:auto;
 }
 
-.nav-1:hover{
- cursor: pointer;
+.nav-nav{
+ color:rgb(140, 138, 138);
+}
+
+.nav-nav:hover{
+ color:white;
+ cursor:pointer;
+ text-decoration: underline;
+ font-weight:bold;
 }
 
 .Section5{
@@ -45,6 +61,11 @@ height:13px;
 .footer-text{
  position:relative;
 font-size:12px;
+margin-bottom:0px;
+}
+.footer-text:hover{
+ cursor:pointer;
+ font-weight:bold;
 }
 
 .call-icon{
@@ -53,6 +74,8 @@ font-size:12px;
 
 .footer-calltext{
  font-size:12px;
+ padding-top:7px;
+ margin-bottom:5px;
 }
 
 .email-icon{
@@ -70,6 +93,7 @@ width:100%;
 
 .flex-footer:hover{
  cursor:pointer;
+ font-weight: bolder;
 }
 
 .footer-choice{
@@ -85,7 +109,6 @@ padding-left:20px;
 
 .footer-choice-2{
  font-size:12px;
- /* padding-left:40px; */
  padding-left:20px;
  }
 
@@ -95,7 +118,15 @@ padding-left:20px;
  width:500px;
 }
 
+/* .quote{
+margin-top: 44px;
+margin-left:55px;
 
+} */
+
+.recommendations{
+z-index:100;
+}
 .input-o{
  height:30px;
  font-size:10px
@@ -111,28 +142,60 @@ padding-left:20px;
 
 }
 
+.hover-design{
+list-style:none;
+color:hsl(198, 78%, 67%);
+text-decoration:underline;
+}
+
 .hover-design:hover{
 text-decoration:underline;
+color:hsl(0, 0%, 100%);
+cursor: pointer;
 }
 
 .first-column{
 background-color: hsl(216, 53%, 9%);
+list-style:none;
+margin-bottom:5px;
 }
 .first-column-2{
  background-color: hsl(216, 53%, 9%);
- margin-bottom:30px;
+ list-style:none;
  }
 
+ .footer-location{
+  list-style:none;
+  margin-left:9px;
+  margin-right:20px;
+  width:18px;
+  height:3px;
+ }
+
+ .FTI{
+  color:rgb(255, 255, 255);
+  border-style:solid;
+  border-width: 1px;
+  border-color:hsl(0, 0%, 100%);
+ }
  .FTI:hover{
+  color:hsl(198, 78%, 67%);
+  border-style:solid;
+  border-width: 1px;
+  border-color:hsl(198, 78%, 67%);
   cursor:pointer;
- }
-
- .nowrap{
-  white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: ellipsis; 
  }
 
  .IC-arrow:hover{
   cursor: pointer;
+ }
+
+ .btn-class:hover{
+  background-color: rgb(27, 231, 231);
+ }
+
+ .img-con{
+  width:35px;
+  padding:0px;
+  margin:0px;
  }
